@@ -1,4 +1,5 @@
-## from collections import Counter
+# from collections import Counter
+
 # a= "aaaaabbbbssss"
 # my_counter = Counter(a)
 # print(my_counter.most_common(2))
@@ -9,7 +10,7 @@
 # pt = Point(1,-4)
 # print(pt.a,pt.b)
 
-# # OrderedDict
+# # # OrderedDict
 # from collections import OrderedDict
 # ordered_dict = OrderedDict()
 # ordered_dict['a'] = 1
@@ -24,9 +25,9 @@
 # d = defaultdict(int)
 # d['a'] = 1
 # d['b'] = 2
-# print(d['c'])
+# print(d['a'])
 
-# deque
+# # deque
 from collections import deque
 d = deque()
 
@@ -39,9 +40,9 @@ print(d)
 
 d.popleft()
 
-# d.clear()
+d.clear()
 d.extendleft([4,5,6])
 print(d)
 
-d.rotate(1)
-print(d)
+# d.rotate(1)
+# print(d)

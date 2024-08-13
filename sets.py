@@ -1,3 +1,21 @@
+myset = set()
+
+myset.add(11)
+myset.add(14)
+myset.add(91)
+myset.add(11)
+myset.add(00)
+
+# myset.remove(14)
+# myset.clear()
+# myset.add(122)
+# myset.pop()
+
+print(myset)
+
+
+
+
 # myset = set()
 
 # # add method
@@ -9,7 +27,7 @@
 # myset.remove(1)
 
 # discard
-# myset.discard(3)
+# myset.discard(122)
 
 # clear
 # myset.clear()
@@ -18,13 +36,13 @@
 # print(myset)
 
 # for i in myset:
-#     print(i)
+    # print(i)
 
 # if 1 in myset:
-#     print("yes")
+    # print("yes")
 
 # union && intersection
-# odds = {1,3,5,7,9}
+# odds = {1,3,5,6,9}
 # evens = {0,2,4,6,8}
 # primes = {2,3,5,7}
 
@@ -32,13 +50,13 @@
 # u = odds.union(evens) 
 # print(u)
 
-# # provides only the elements on both sets 
+# # # provides only the elements on both sets 
 # i = odds.intersection(primes)
 # print(i)
 
-# setA = {1,2,3,4,5,6,7,8,9}
-# setB = {1,2,3,10,11,12}
-
+setA = {1,2,3,4,5,6,7,8,9}
+setB = {1,2,3,10,11,12}
+#
 # different method
 
 # diff = setA.difference(setB)
@@ -75,5 +93,5 @@
 
 setA = {1,2,3,4,5,6}
 setB = {1,2,3}
-
+# 
 print(setA.issubset(setB))
